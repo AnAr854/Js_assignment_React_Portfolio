@@ -1,38 +1,117 @@
-.App {
+@media only screen and (max-width: 767px) {
+  .card {
+    margin-bottom: 2em;
+  }
+
+  .card-img-top {
+    height: 16em !important;
+  }
+
+  .widerP {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  th,
+  td {
+    padding: 0.5em 0 !important;
+  }
+}
+
+@media only screen and (min-width: 565px) {
+  .carousel-item>img {
+    width: auto !important;
+    height: 75%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000308;
+  background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png");
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Vollkorn', serif;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+header>h1 {
+  font-size: 4em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header>p {
+  font-size: 1.7em;
+  color: #D3163B;
+}
+
+section {
+  padding: 1em;
+}
+
+.shadedBorder {
+  box-shadow: 4px 2px 5px #D3163B;
+}
+
+.shadedText {
+  text-shadow: 4px 4px 8px #D3163B;
+}
+
+.nav-tabs {
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 1.2em;
+}
+
+/*Courses*/
+.tableHeadingRow>th {
+  font-size: 1.4em;
+  color: white;
+  font-weight: 800;
+  background-color: #D3163B;
+}
+
+/*Jobs*/
+.accordion-button {
+  color: #D3163B;
+  font-size: 0.6em !important;
+  font-weight: 800;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000308;
+  background-color: #D3163B;
+}
+
+/*Education*/
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+
+/*Projects*/
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item>img {
+  width: 100%;
 }
