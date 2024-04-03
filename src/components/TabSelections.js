@@ -8,7 +8,7 @@ import PersonalInfo from './PersonalInfo';
 import Projects from './Projects';
 
 function TabSelections() {
-    const [key, setKey] = useState('home');
+    const [key, setKey] = useState('personalInfo');
 
     return (
         <nav>
