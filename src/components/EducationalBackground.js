@@ -6,7 +6,7 @@ const EducationalBackground = () => {
             id: 1,
             institution: "Ivalo Upper Secondary School",
             degree: "Matriculation Examination",
-            year: "August 2000 - May 2006",
+            year: "August 2000 - May 2003",
             description: "",
             imgSrc: "/images/exam.jpg"
         },
@@ -14,7 +14,7 @@ const EducationalBackground = () => {
             id: 2,
             institution: "Kainuu Vocational College",
             degree: "Vocational Qualification in Vehicle Technology",
-            year: "August 2000 - February 2006",
+            year: "August 2003 - February 2006",
             description: "",
             imgSrc: "/images/carrepair.jpg"
         }, {
